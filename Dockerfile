@@ -1,6 +1,6 @@
 # 定制的镜像都是基于 FROM 的镜像，这里将node:12.18.4设成基础镜像
 # node后面跟的tag，可以在docker hub中（上方网址）查找项目所需的tag
-FROM node:12.18.4 as build
+FROM node:14.15.0 as build
 
 # 指定工作目录。用 WORKDIR 指定的工作目录，会在构建镜像的每一层中都存在。
 # WORKDIR 指定的工作目录，必须是提前创建好的

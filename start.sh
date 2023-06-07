@@ -1,9 +1,5 @@
 git pull
 
-npm install
-
-npm run build
-
 docker stop coone && docker rm coone
 
 docker build -t vuedemo .

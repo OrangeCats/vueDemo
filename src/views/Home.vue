@@ -194,7 +194,7 @@ export default {
     height: 100%;
     display: flex;
     justify-content: center;
-
+    display: none;
     p {
       margin-top: 80px;
       font-size: 80px;
@@ -211,7 +211,7 @@ export default {
     display: flex;
     flex-direction: column;
     background: #f5f5f5;
-    display: none;
+    // display: none;
     & > div {
       padding: 20px;
     }

@@ -1,8 +1,8 @@
 git pull
 
-yarn
+npm install
 
-yarn build
+npm run build
 
 docker stop coone && docker rm coone
 

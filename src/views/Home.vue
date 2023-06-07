@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <!-- <el-button @click="toggleMarker">新增</el-button> -->
+    <div class="test">
+      <p>你瞅啥?</p>
+    </div>
     <div id="container">
       <div class="tabs">
         <el-tabs v-model="activeName">
@@ -187,6 +190,19 @@ export default {
 .home {
   width: 100vw;
   height: 100vh;
+  .test {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin-top: 80px;
+      font-size: 80px;
+      color: #333;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
   #container {
     box-sizing: border-box;
     padding: 20px;
@@ -195,6 +211,7 @@ export default {
     display: flex;
     flex-direction: column;
     background: #f5f5f5;
+    display: none;
     & > div {
       padding: 20px;
     }
